@@ -13,7 +13,7 @@ public class LetraE {
         System.out.println("Informe o número 3");
         numero3 = sc.nextInt();
         if (numero1 > numero2 && numero1 > numero3 && numero2 > numero3) {
-            System.out.println("A ordem crescente dos números é: " + numero1 + numero2 + numero3);
+            System.out.println("A ordem crescente dos números é: " +  numero1 + numero2 + numero3);
         }else if (numero2 > numero1 && numero2 > numero3 && numero1 > numero3) {
             System.out.println("A ordem crescente dos números é: " + numero2 + numero1 + numero3);
         }else if (numero3 > numero1 && numero3 > numero2 && numero1 > numero2) {
