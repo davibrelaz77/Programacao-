@@ -6,13 +6,13 @@ public class LetraI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double pesoideal;
-        int sexo;
+        String sexo;
 
         System.out.println("Informe a altura");
         double altura = sc.nextDouble();
-        System.out.println("Para informar seu sexo digite (1) para masculino e (2) para feminino" );
-        sexo = sc.nextInt();
-        if (sexo ==1 ) {
+        System.out.println("Informe o seu sexo (masculino) ou (feminino)" );
+        sexo = sc.next();
+        if (sexo.toLowerCase().equals("masculino") || sexo.toLowerCase().equals("m")) {
             pesoideal = 72.7 * altura - 58;
             System.out.println(" Seu peso ideal é: " + pesoideal);
         }else{

@@ -7,7 +7,8 @@ public class Questão4 {
         Scanner sc = new Scanner(System.in);
         double salario, reajusteparcial, novosalario;
         int cargo;
-        System.out.println("Para informar seu cargo digite: (1) Escrituário, (2) Secretário, (3) Caixa, (4) Gerente, (5) Diretor");
+        
+        System.out.println("Para informar seu cargo digite: (1) Escrituário, (2) Secretário, (3) Caixa, (4) Gerente, (5) Diretor:");
         cargo = sc.nextInt();
         System.out.println("Informe o seu salário ");
         salario = sc.nextDouble();
@@ -22,7 +23,7 @@ public class Questão4 {
         }else if (cargo == 3) {
             reajusteparcial = salario * 0.2;
             novosalario = salario + reajusteparcial;
-            System.out.println("Para o seu cargo de caixa o reajuste é de : " + novosalario);
+            System.out.println("Para o seu cargo de caixa o reajuste é de1350.0 : " + novosalario);
         }else if (cargo == 4) {
             reajusteparcial = salario * 0.1;
             novosalario = salario + reajusteparcial;
