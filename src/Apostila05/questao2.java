@@ -1,4 +1,4 @@
-package Lista1;
+package Apostila05;
 
 import java.util.Scanner;
 
